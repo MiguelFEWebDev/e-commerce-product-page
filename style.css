@@ -108,6 +108,7 @@
 .img-main {
   height: 500px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .gallery-images {
@@ -229,4 +230,29 @@
 .addToCart button {
   border: none;
   outline: none;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+
+.modal.open,
+.overlay.open {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  padding: 0.5rem;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: white;
+  border-radius: 0.25rem;
+  z-index: 10;
 }
