@@ -10,5 +10,5 @@ openButton.addEventListener("click", () => {
 
 closeButton.addEventListener("click", () => {
   modal.classList.remove("open");
-  modal.classList.remove("overlay");
+  overlay.classList.remove("open");
 });

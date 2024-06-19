@@ -232,6 +232,8 @@
   outline: none;
 }
 
+/* MODAL */
+
 .overlay {
   display: none;
   position: fixed;
@@ -252,7 +254,13 @@
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  background: white;
-  border-radius: 0.25rem;
+  background: none;
   z-index: 10;
+}
+
+.modal-img {
+  height: 800px;
+}
+.modal-btn {
+  display: flex;
 }
