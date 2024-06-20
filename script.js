@@ -12,3 +12,15 @@ closeButton.addEventListener("click", () => {
   modal.classList.remove("open");
   overlay.classList.remove("open");
 });
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "vertical",
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

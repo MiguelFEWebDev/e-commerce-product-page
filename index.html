@@ -13,7 +13,13 @@
 
     <!-- CSS File -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Swiper CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,10 +95,38 @@
 
         <div data-modal class="modal">
           <div>
-            <button class="modal-btn" data-close-modal>
-              <img src="images/icon-close.svg" />
-            </button>
-            <img class="modal-img" src="images/image-product-1.jpg" alt="" />
+            <div class="modal-btn">
+              <button data-close-modal>
+                <img src="images/icon-close.svg" />
+              </button>
+            </div>
+            <div>
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="/images/image-product-1.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/image-product-2.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/image-product-3.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/image-product-4.jpg" alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/images/image-product-5.jpg" alt="" />
+                  </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
           </div>
         </div>
 

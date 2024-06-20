@@ -248,6 +248,7 @@
 }
 
 .modal {
+  height: 700px;
   display: none;
   position: fixed;
   padding: 0.5rem;
@@ -258,9 +259,39 @@
   z-index: 10;
 }
 
-.modal-img {
-  height: 800px;
+/* Swiper */
+
+.swiper {
+  width: 600px;
+  height: 700px;
+}
+
+.swiper img {
+  width: 600px;
+}
+
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+
+/* .modal-img {
+  height: 600px;
+  border-radius: 25px;
 }
 .modal-btn {
+  margin-bottom: 20px;
   display: flex;
+  justify-content: flex-end;
 }
+
+.modal-nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 40px;
+  background-color: white;
+
+  justify-content: center;
+} */
