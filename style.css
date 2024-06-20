@@ -13,6 +13,8 @@
 
   /* with 75 opacity for lightbox background:  */
   --color-black: hsl(0, 0%, 0%);
+
+  --swiper-navigation-color: #000000;
 }
 
 /* CSS resets */
@@ -268,11 +270,21 @@
 
 .swiper img {
   width: 600px;
+  border-radius: 30px;
 }
 
-.swiper-button-prev {
-}
+.swiper-button-prev,
 .swiper-button-next {
+  background-color: white;
+  border-radius: 50px;
+
+  padding: 24px;
+  margin: -20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
 }
 
 /* .modal-img {
