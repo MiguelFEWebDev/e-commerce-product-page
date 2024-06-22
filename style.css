@@ -46,8 +46,8 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;
-  font-size: 18px;
+  gap: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .navbar-links li {
@@ -65,27 +65,30 @@
 
 .nav-profile {
   padding: 1rem;
-  margin: 10px;
+  margin: 0.3rem;
   display: flex;
-  gap: 50px;
+  gap: 2rem;
 }
 
 .avatar-img {
-  height: 55px;
+  display: block;
+  max-height: 55px;
 }
 
 .container-cart {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 1.1rem;
 }
 .cart-img {
-  height: 24px;
+  display: block;
+  height: 1.2rem;
 }
 
 /* HR line */
 .hr-line {
-  margin-bottom: 45px;
+  min-width: 700px;
+  margin-bottom: 4rem;
 }
 
 /* Main page */
