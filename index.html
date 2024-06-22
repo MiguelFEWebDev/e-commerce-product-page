@@ -45,7 +45,12 @@
         </div>
         <div class="nav-profile">
           <div class="container-cart">
-            <img class="cart-img" src="images/icon-cart.svg" alt="" />
+            <img
+              data-open-dialog
+              class="cart-img"
+              src="images/icon-cart.svg"
+              alt=""
+            />
           </div>
           <div>
             <img class="avatar-img" src="images/image-avatar.png" alt="" />
@@ -55,7 +60,7 @@
     </header>
     <hr class="hr-line" />
 
-    <section class="main-page">
+    <section data-close-dialog class="main-page">
       <div class="container">
         <div class="container-images">
           <div class="main-image">
@@ -130,12 +135,14 @@
           </div>
         </div>
 
-        <!-- MODAL -->
-        <!-- <div data-dialog class="dialog">
-          <div>
-            <h1>Cart</h1>
-          </div>
-        </div> -->
+        <!-- Dialog -->
+        <div class="shopping-cart">
+          <dialog data-dialog>
+            <div>
+              <h1>Cart</h1>
+            </div>
+          </dialog>
+        </div>
 
         <div class="container-shop">
           <p class="intro-text">SNEAKER COMPANY</p>

@@ -52,18 +52,17 @@ closeButton.addEventListener("click", () => {
   overlay.classList.remove("open");
 });
 
-// cart modal
+// Cart functionality
 
-// const openButtonDialog = document.querySelector("[data-open-dialog]");
-// const closeButtonDialog = document.querySelector("[data-close-dialog");
+const openButtonDialog = document.querySelector("[data-open-dialog]");
+const closeButtonDialog = document.querySelector("[data-close-dialog");
+const dialog = document.querySelector("[data-dialog]");
 
-// const dialog = document.querySelector("[data-dialog]");
+openButtonDialog.addEventListener("click", () => {
+  dialog.show();
+});
 
-// openButtonDialog.addEventListener("click", () => {
-//   dialog.classList.add("open");
-// });
-
-// //Closing modal on click
-// closeButtonDialog.addEventListener("click", () => {
-//   dialog.classList.remove("open");
-// });
+//Closing modal on click
+closeButtonDialog.addEventListener("click", () => {
+  dialog.close();
+});
