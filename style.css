@@ -95,24 +95,25 @@
 
 /* Image side */
 .main-page {
-  margin-bottom: 70px;
+  margin-bottom: 4rem;
 }
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 .container-images {
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  padding: 1.5rem;
 }
 .main-image {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .img-main {
   display: block;
-  height: 500px;
+  max-height: 30rem;
   border-radius: 20px;
   cursor: pointer;
 }
