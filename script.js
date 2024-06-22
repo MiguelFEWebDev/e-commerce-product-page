@@ -27,8 +27,6 @@ function itemsRemove() {
 addItem.addEventListener("click", itemsAdd);
 removeItem.addEventListener("click", itemsRemove);
 
-// adding to basket
-
 //Swiper
 const swiper = new Swiper(".swiper", {
   // Optional parameters
@@ -53,3 +51,19 @@ closeButton.addEventListener("click", () => {
   modal.classList.remove("open");
   overlay.classList.remove("open");
 });
+
+// cart modal
+
+// const openButtonDialog = document.querySelector("[data-open-dialog]");
+// const closeButtonDialog = document.querySelector("[data-close-dialog");
+
+// const dialog = document.querySelector("[data-dialog]");
+
+// openButtonDialog.addEventListener("click", () => {
+//   dialog.classList.add("open");
+// });
+
+// //Closing modal on click
+// closeButtonDialog.addEventListener("click", () => {
+//   dialog.classList.remove("open");
+// });
