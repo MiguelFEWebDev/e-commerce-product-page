@@ -309,18 +309,17 @@
 /* Cart functionality */
 
 .shopping-cart {
-  display: flex;
-  justify-content: flex-start;
+  position: absolute;
+  min-width: 300px;
 }
 
 dialog {
-  /* left: 1595px; */
   min-height: 300px;
   min-width: 300px;
   border-radius: 15px;
+  z-index: 1000;
 }
 
 dialog[open] {
-  display: flex;
-  justify-content: center;
+  position: absolute;
 }
