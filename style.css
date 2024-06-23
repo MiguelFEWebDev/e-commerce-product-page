@@ -308,13 +308,19 @@
 
 /* Cart functionality */
 
+.shopping-cart {
+  display: flex;
+  justify-content: flex-start;
+}
+
 dialog {
-  border: none;
-  padding: 1.6rem;
-  max-width: 900px;
+  /* left: 1595px; */
+  min-height: 300px;
+  min-width: 300px;
+  border-radius: 15px;
 }
 
 dialog[open] {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
 }
