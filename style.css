@@ -308,5 +308,13 @@
 
 /* Cart functionality */
 
-/* .shopping-cart {
-} */
+dialog {
+  border: none;
+  padding: 1.6rem;
+  max-width: 900px;
+}
+
+dialog[open] {
+  display: flex;
+  align-items: flex-start;
+}
