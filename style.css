@@ -331,6 +331,17 @@ dialog h1 {
   min-width: 300px;
   margin-bottom: 1rem;
 }
+/* attribution */
+
+.attribution {
+  display: flex;
+  justify-content: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--color-black);
+}
 
 /* // Media querys */
 
