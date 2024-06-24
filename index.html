@@ -60,7 +60,7 @@
     </header>
     <hr class="hr-line" />
 
-    <section data-close-dialog class="main-page">
+    <section class="main-page">
       <div class="container">
         <div class="container-images">
           <div class="main-image">
@@ -136,13 +136,23 @@
         </div>
 
         <!-- Dialog -->
-        <div class="shopping-cart">
-          <dialog data-dialog>
+
+        <dialog data-dialog>
+          <div>
+            <h1>Cart</h1>
+            <button class="dialog_button">
+              <ion-icon
+                class="dialog_icon"
+                data-close-dialog
+                name="close-outline"
+              ></ion-icon>
+            </button>
+            <hr class="dialogHR" />
             <div>
-              <h1>Cart</h1>
+              <p>Your cart is empty</p>
             </div>
-          </dialog>
-        </div>
+          </div>
+        </dialog>
 
         <div class="container-shop">
           <p class="intro-text">SNEAKER COMPANY</p>
@@ -189,6 +199,15 @@
       >. Coded by <a href="#">Maikel</a>.
     </div>
   </body>
+  <!-- ionicons -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
   <!-- Javascript file -->
   <script src="script.js"></script>
 </html>
